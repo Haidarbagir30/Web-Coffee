@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">COFFEE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+     <img src="./gambar/menu.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-conten">
+            <h2>COFFEE INSPIRES ME</h2>
+            <div class="line"></div>
+            <h1>SYURBUN COFFEE</h1>
+            <a href="#" class="ctn">Tentang Coffe</a>
+        </div>
+    </header>
+        <section class="events">
+        <div class="tittle">
+            <h1>Dicount 50%</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+        <div class="col">
+            <img src="./gambar/blog-1.jpeg" alt="">
+            <h4>Kopi Luak Trendy</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos magnam dolore veniam fugit quam. </p>
+            <a href="#" class="ctn">Tentang Luak</a>
+        </div>
+    <div>
+        <div class="col">
+            <img src="./gambar/blog-2.jpeg" alt="">
+            <h4>Chapuchinoo</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officiis maiores cumque. Eius, voluptate vero. </p>
+            <a href="#" class="ctn">Tentang Italy</a>
+        </div>
+        
+    </div>
+
+    </section>
+
+    
+
+    <section class="explore"> 
+        <div class="explore-conten">
+        <h1>ORIGINAL COFFEE</h1>
+        <div class="line"></div>
+        <P>Menyeruput kopi sambil memahami proses pengolahannya hingga sampai di cangkir kita merupakan salah satu cara untuk mensyukuri kenikmatannya. Biji kopi memang menempuh proses yang cukup panjang sebelum siap dinikmati. Beberapa proses yang harus dilalui ialah proses panen, pasca panen (penjemuran), penyangraian, hingga penyeduhan. Setiap proses tersebut akan memengaruhi aroma dan cita rasa kopi.</P>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+           <div class="col content-col">
+               <h1>OUR COFFEE GALLERY</h1>
+               <div class="line"></div>
+               <P>
+                Apa yang membuat aroma dan rasa secangkir Specialty Coffee begitu istimewa? Dibalik secangkir minuman beraroma harum ini, ada sebuah perjalanan panjang menuju kesempurnaan. Demi mendapatkan citarasa kopi terbaik, ada banyak pekerjaan rumit yang harus dilakuka</P>
+
+               <a href="#" class="ctn">Learn More</a>
+           </div>
+                <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./kopi1.jpg" alt="">
+                    <img src="./kopi2.jpg" alt="">
+                    <img src="./kopi3.jpg" alt="">
+                    <img src="./kopi4.jpg" alt="">
+                </div>    
+                </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p> Copyright Syurbun Coffee, Subang 2022</p>
+        <p>Contact +6282121113744</p>
+        <p><a href="https://www.linkedin.com/feed/" class="My Liknln">My Liknln</a></p>
+    </section>
+
+<script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+</body>
+</html>
